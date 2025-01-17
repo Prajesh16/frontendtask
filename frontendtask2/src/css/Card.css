@@ -1,0 +1,31 @@
+.card_list{
+    width: 1278px;
+    height: 656px;
+}
+.one_card{
+    width: 408px;
+    height: 656px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+}
+.card {
+    width: 392px;
+    height: 643px;
+    margin: auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #050038;
+    border-radius: 16px;
+}
+.back_card{
+    width: 395px;
+    height: 640px;
+    border-radius: 16px;
+    background: #BBF1DA;
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
