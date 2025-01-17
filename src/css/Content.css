@@ -1,0 +1,31 @@
+.main_desc{
+    font-family: Proxima Nova;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    justify-items: end;
+}
+.content_title{
+    font-size: 26px;
+}
+.para{
+    font-size: 20px;
+}
+.image{
+    width: 405px;
+    height: 426px;
+}
+@media (max-width: 767px){
+    .main_desc{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .content_title{
+        font-size: 35px;
+    }
+    .para{
+        font-size: 24px;
+    }
+}
